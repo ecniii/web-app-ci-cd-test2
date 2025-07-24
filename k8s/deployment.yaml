@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: ghcr.io/ecniii/web-app:latest
+        image: ghcr.io/ecniii/web-app:build-8
         ports:
         - containerPort: 8080
