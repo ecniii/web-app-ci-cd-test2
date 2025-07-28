@@ -7,7 +7,7 @@ REQUEST_COUNT = Counter('http_requests_total', 'Total HTTP Requests')
 @app.route('/')
 def home():
     REQUEST_COUNT.inc()
-    return "Hello from Kubernetes!"
+    return "Hello from KMC Systems Team!"
 
 @app.route('/metrics')
 def metrics():
